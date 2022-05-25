@@ -233,8 +233,8 @@ li:hover i {
     background: -moz-linear-gradient(top, #9456DC, #FF79DB);
     background: linear-gradient(to bottom, #9456DC, #FF79DB);
     cursor: pointer;
-    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
 
 .icon-solid-none {
