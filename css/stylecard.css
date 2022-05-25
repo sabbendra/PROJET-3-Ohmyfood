@@ -54,6 +54,25 @@ header {
     object-fit: cover;
 }
 
+/* Partie bouton "commander" */
+
+.buttonsecondsection {
+    background-image:linear-gradient(#ff79da,#9356DC);
+    padding: 12px 20px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 30px;
+    box-shadow: 1px 5px 10px -3px #787878;
+    cursor: pointer;
+    transition: transform 200ms;
+}
+
+.buttonsecondsection:hover {
+    transform: scale(1.03);
+}
+
 /* Partie footer */
 
 .footer {
