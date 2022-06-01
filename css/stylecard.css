@@ -8,9 +8,17 @@ body {
 
 main {
     padding: 0 15px;
-    /*background-color: red;*/
+    background-color: #f6f4f4;
     border-radius: 2rem 2rem 0 0;
+    margin-top: -3em;
+    position: relative;
+    z-index: 2;
     
+}
+
+.full-screen-image {
+    position: relative;
+    z-index: 1;
 }
 
 h4 {
@@ -76,7 +84,7 @@ header {
 .flexbox1-restau {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    padding-top: 16px;
 }
 
 .flexbox-h2 {
