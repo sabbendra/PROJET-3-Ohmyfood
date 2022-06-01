@@ -42,7 +42,7 @@ h5 {
 
 p {
     font-family: roboto;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 18px;
     margin-top: 10px;
     margin-bottom: 7px;
@@ -52,10 +52,11 @@ p {
 }
 
 h3 {
-    font-weight: 200;
+    font-weight: 250;
     padding-bottom: 2px;
     border-bottom: 2px solid #99e2d0;
     width: 13%;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 768px) {
@@ -119,12 +120,24 @@ header {
     display: flex;
     background-color: white;
     border-radius: 18px;
-    /*padding: 7px 12px;*/
     box-shadow: 1px 5px 10px -3px #787878;
     list-style-type: none;
     margin-bottom: 20px;
+    animation-name: animation-scale;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    /*animation-delay: 2s;*/
 }
 
+@keyframes animation-scale {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+    
+}
 .flexbox2-price {
     display: flex;
     align-items: flex-end;
@@ -158,10 +171,12 @@ header {
     width: 90px;
     border-radius: 0px 15px 15px 0px;
     padding: 7px 12px;
+    cursor: pointer;
 }
 
 .class-circle {
-    /*transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);*/
+    transition: transform 2s;
+    transform: rotate(360deg);
 }
 
 .class-circle:hover {
@@ -170,6 +185,7 @@ header {
     width: 90px;
     border-radius: 0px 15px 15px 0px;
     padding: 7px 12px;
+    cursor: pointer;
     /*transform: rotate(315deg);*/
 }
 
@@ -179,7 +195,11 @@ header {
     overflow: hidden;
 
 }
-  
+.boxshadow-menu:hover {
+    cursor: pointer;
+}
+
+
 /* Partie bouton "commander" */
 
 .buttonsecondsection {
