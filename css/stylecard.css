@@ -6,11 +6,19 @@ body {
     font-family: roboto, sans-serif;
 }
 
+main {
+    padding: 0 15px;
+    /*background-color: red;*/
+    border-radius: 2rem 2rem 0 0;
+    
+}
+
 h4 {
     font-family: roboto;
     font-weight: bold;
     font-size: 19px;
     margin-bottom: 0;
+    margin-top: 2px;
 }
 
 h5 {
@@ -25,6 +33,15 @@ p {
     font-family: roboto;
     font-weight: 200;
     font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+h3 {
+    font-weight: 200;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #99e2d0;
+    width: 13%;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,6 +71,49 @@ header {
     object-fit: cover;
 }
 
+/* Partie section carte du restaurant */
+
+.flexbox1-restau {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.flexbox-h2 {
+    display: flex;
+    padding-right: 20%;
+    font-style: italic;
+    font-family: shrikhand;
+    
+}
+
+.flexbox-heart {
+    padding-left: 10px;
+    font-size: 1.4em;
+}
+
+/* Partie entrée/plats/desserts avec les prix */
+
+.menu {
+    padding-top: 9px;
+}
+
+.flexbox2-price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.boxshadow-menu {
+    background-color: white;
+    border-radius: 18px;
+    padding: 7px 12px;
+    box-shadow: 1px 5px 10px -3px #787878;
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+  
 /* Partie bouton "commander" */
 
 .buttonsecondsection {
@@ -69,6 +129,11 @@ header {
     transition: transform 200ms;
 }
 
+.button {
+    padding-top: 30px;
+    padding-bottom: 60px;
+    text-align: center;
+}
 .buttonsecondsection:hover {
     transform: scale(1.03);
 }
