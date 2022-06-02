@@ -196,7 +196,6 @@ header {
     color: white;
     opacity: 0;
     font-size: 1.5em; 
-    transition: all 0.5s cubic-bezier(0.18, 0.89, 0.32, 1.28);
 }
 
 .icon-check:hover {
@@ -209,19 +208,17 @@ header {
 }
 
 .class-circle {
-    transition: transform 2s;
-    transform: rotate(360deg);
+    transition: transform 0.5s;
+    transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+    
 }
 
 .class-circle:hover {
-    background-color: #99e2d0;
     opacity: 1;
-    width: 90px;
-    border-radius: 0px 15px 15px 0px;
-    padding: 7px 12px;
-    cursor: pointer;
-    /*transform: rotate(315deg);*/
+    transform: rotate(360deg);
+    
 }
+
 
 .flexbox-title-menu {
     white-space: nowrap;
