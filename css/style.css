@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
+
 }
 
 body {
     font-family: roboto, sans-serif;
+    position: relative;
 }
 
 h4 {
@@ -35,63 +37,67 @@ p {
 
 /* Partie loader */
 /*
-.loader {
-    position: absolute;
-    background: white;
+.color1 {
+    background-color: #ff79da;
+  }
+  
+  .color3 {
+    background-color: #9456DC;
+  }
+  
+  .color2 {
+    background-color: #99e2d0;
+  }
+  
+  .row {
+    position: fixed;
+    background-color: white;
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
+    padding: 0;
+    z-index: -1;
+  }
+  
+  .loader-object span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+  }
 
-.letter-loader {
-    color: #99E2D0;
-    font-size: 50px;
-    letter-spacing: 10px;
-    margin-bottom: 150px;
-    animation: animation-loader 2s linear infinite;
-}*/
-/*@keyframes animation-loader {
-    0% {
-        color:#ff79da;
+  .three-dots {
+      margin: auto;
+  }
+  */
+  /* Three dots */
+  /*
+  .three-dots span {
+    border-radius: 50%;
+    animation: loader-dots 0.8s linear infinite alternate;
+  }
+  @keyframes loader-dots {
+    from {
+      transform: scale(0, 0);
     }
-    100% {
-        color:#99E2D0;
+    to {
+      transform: scale(1, 1);
     }
-} */
-/*
-.letter-loader:nth-child(1){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(2){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(3){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(4){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(5){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(6){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(7){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(8){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(9){
-    animation: delay 0.2s;
-}
-.letter-loader:nth-child(10){
-    animation: delay 0.2s;
-}*/
+  }
+   
+  .three-dots span:nth-of-type(1) {
+    animation-delay: -0.8s;
+  }
+  
+  .three-dots span:nth-of-type(2) {
+    animation-delay: -0.5s;
+  }
+  
+  .three-dots span:nth-of-type(3) {
+    animation-delay: -0.25s;
+  }
 
+*/
 @media screen and (max-width: 768px) {
 
 /* Partie Header */

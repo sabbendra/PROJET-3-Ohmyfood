@@ -16,6 +16,7 @@ main {
     
 }
 
+
 .nav {
     display: flex;
     width: 100%;
@@ -141,20 +142,36 @@ header {
     list-style-type: none;
     margin-bottom: 20px;
     animation-name: animation-scale;
-    animation-duration: 2s;
+    animation-duration: 1.3s;
     animation-fill-mode: both;
-    /*animation-delay: 2s;*/
+    animation-delay: 2s;
 }
+
+/* animation de l'arrivée des menus en cascade */
 
 @keyframes animation-scale {
     0% {
-        transform: scale(0);
+        opacity: 0;
+        transform: translateY(50px);
     }
     100% {
-        transform: scale(1);
-    }
-    
+        opacity:100%;
+        transform: translateY(0px);
+    }  
 }
+.menu1{
+    animation-delay: 200ms;
+  }
+  
+  .menu2 {
+    animation-delay: 400ms;
+  }
+  
+  .menu3 {
+    animation-delay: 600ms;
+  }
+
+
 .flexbox2-price {
     display: flex;
     align-items: flex-end;
