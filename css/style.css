@@ -27,6 +27,71 @@ p {
     font-size: 18px;
 }
 
+.lien-menu {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Partie loader */
+/*
+.loader {
+    position: absolute;
+    background: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-loader {
+    color: #99E2D0;
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 150px;
+    animation: animation-loader 2s linear infinite;
+}*/
+/*@keyframes animation-loader {
+    0% {
+        color:#ff79da;
+    }
+    100% {
+        color:#99E2D0;
+    }
+} */
+/*
+.letter-loader:nth-child(1){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(2){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(3){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(4){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(5){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(6){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(7){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(8){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(9){
+    animation: delay 0.2s;
+}
+.letter-loader:nth-child(10){
+    animation: delay 0.2s;
+}*/
+
 @media screen and (max-width: 768px) {
 
 /* Partie Header */
