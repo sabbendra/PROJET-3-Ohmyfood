@@ -753,6 +753,7 @@ ol {
     margin-left: 20px;
     justify-content: space-between;
     padding-left: 0;
+    gap: 10px;
 }
 
 li {
@@ -762,7 +763,7 @@ li {
     box-shadow: 1px 5px 10px -3px #787878;
     list-style-type: none;
     margin-bottom: 20px;
-    width: 420px;
+    width: 370px;
 }
 
 .thirdsection-operation li i {
