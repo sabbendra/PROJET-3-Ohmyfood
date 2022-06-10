@@ -590,7 +590,7 @@ h6 {
     .sub-menu {
         display: grid;
         gap: 10px;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
 
     .boxshadow-menu {
@@ -662,7 +662,7 @@ h6 {
         opacity: 1;
         width: 90px;
         border-radius: 0px 15px 15px 0px;
-        padding: 7px 12px;
+        /*padding: 7px 12px;*/
         cursor: pointer;
     }
     

@@ -36,7 +36,7 @@ p {
 
 
 /* Partie loader */
-/*
+
 .color1 {
     background-color: #ff79da;
   }
@@ -57,10 +57,22 @@ p {
     display: flex;
     justify-content: center;
     padding: 0;
-    z-index: -1;
+    z-index: 1;
+    animation: disappearing-loader 500ms;
+    animation-delay: 2000ms;
+    animation-fill-mode: forwards; 
   }
   
-  .loader-object span {
+  @keyframes disappearing-loader {
+    0% {
+        visibility: visible;
+    }
+    100% {
+       visibility: hidden;
+    }
+
+}
+  .loader-object .color1, .color2, .color3 {
     width: 20px;
     height: 20px;
     display: inline-block;
@@ -69,10 +81,10 @@ p {
   .three-dots {
       margin: auto;
   }
-  */
+  
   /* Three dots */
-  /*
-  .three-dots span {
+  
+ .color1, .color2, .color3{
     border-radius: 50%;
     animation: loader-dots 0.8s linear infinite alternate;
   }
@@ -85,19 +97,19 @@ p {
     }
   }
    
-  .three-dots span:nth-of-type(1) {
-    animation-delay: -0.8s;
+  .color1 {
+    animation-delay: 0.8s;
   }
   
-  .three-dots span:nth-of-type(2) {
-    animation-delay: -0.5s;
+  .color2 {
+    animation-delay: 0.5s;
   }
   
-  .three-dots span:nth-of-type(3) {
-    animation-delay: -0.25s;
+  .color3 {
+    animation-delay: 0.25s;
   }
 
-*/
+
 @media screen and (max-width: 768px) {
 
 /* Partie Header */
