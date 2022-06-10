@@ -298,3 +298,455 @@ h6 {
     text-decoration: none;
 }
 }
+
+/* Responsive version tablette de 769px à 991px */
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+    /* Partie Header */
+    
+    h1 {
+        font-family: shrikhand;
+        text-align: center;
+        font-style: italic;
+        font-size: 25px;
+        padding-bottom: 17px;
+        padding-top: 17px;
+        margin-bottom: 0;
+        margin-top: 0;
+        width: 85%;
+        -webkit-box-pack: center;
+    }
+    
+    header {
+        position: relative;
+    }
+    
+    /* Partie image en plein écran */
+    
+    .photo-card {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+    
+    /* Partie section carte du restaurant */
+    
+    .flexbox1-restau {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 16px;
+    }
+    
+    .flexbox-h2 {
+        display: flex;
+        padding-right: 20%;
+        font-style: italic;
+        font-family: shrikhand;
+        
+    }
+    
+    .flexbox-heart {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        font-size: 1.4em;
+    }
+    
+    /* Partie entrée/plats/desserts avec les prix */
+    
+    .menu {
+        padding-top: 9px;
+    }
+    
+    .boxshadow-menu {
+        display: flex;
+        background-color: white;
+        border-radius: 18px;
+        box-shadow: 1px 5px 10px -3px #787878;
+        list-style-type: none;
+        margin-bottom: 20px;
+        animation-name: animation-scale;
+        animation-duration: 1.3s;
+        animation-fill-mode: both;
+        animation-delay: 2s;
+    }
+    
+    /* animation de l'arrivée des menus en cascade */
+    
+    @keyframes animation-scale {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity:100%;
+            transform: translateY(0px);
+        }  
+    }
+    .menu1{
+        animation-delay: 200ms;
+      }
+      
+      .menu2 {
+        animation-delay: 400ms;
+      }
+      
+      .menu3 {
+        animation-delay: 600ms;
+      }
+    
+    
+    .flexbox2-price {
+        display: flex;
+        align-items: flex-end;
+        margin-left: auto;
+        padding: 7px 12px;
+        
+    }
+    
+    .flexbox-title-menu {
+        padding: 7px 12px;
+    }
+    
+    
+    /* Animation de l'icone check */
+    
+    .icon-check {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #99e2d0;
+        border-radius: 0px 18px 18px 0px;
+        color: white;
+        opacity: 0;
+        font-size: 1.5em; 
+    }
+    
+    .icon-check:hover {
+        background-color: #99e2d0;
+        opacity: 1;
+        width: 90px;
+        border-radius: 0px 15px 15px 0px;
+        padding: 7px 12px;
+        cursor: pointer;
+    }
+    
+    .class-circle {
+        transition: transform 0.5s;
+        transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        
+    }
+    
+    .class-circle:hover {
+        opacity: 1;
+        transform: rotate(360deg);
+        
+    }
+    
+    
+    .flexbox-title-menu {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    
+    }
+    .boxshadow-menu:hover {
+        cursor: pointer;
+    }
+    
+    
+    /* Partie bouton "commander" */
+    
+    .buttonsecondsection {
+        background-image:linear-gradient(#ff79da,#9356DC);
+        padding: 12px 20px;
+        margin-top: 10px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        border-radius: 30px;
+        box-shadow: 1px 5px 10px -3px #787878;
+        cursor: pointer;
+        transition: transform 200ms;
+    }
+    
+    .button {
+        padding-top: 30px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .buttonsecondsection:hover {
+        transform: scale(1.03);
+    }
+    
+    /* Partie footer */
+    
+    .footer {
+        padding: 20px;
+        background: #2d2b2b;
+        color: white;
+    }
+    
+    h6 {
+        font-family: shrikhand;
+        font-size: 18px;
+        font-weight: 200;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .utensils-helping {
+        display: flex;
+        align-items: center;
+    }
+    
+    .icon-footer, .footer-text {
+        display: flex;
+        flex-direction: row;
+        margin: 9px 0;
+    }
+    
+    .fa-utensils, .fa-hands-helping {
+        padding-right: 10px;
+        font-size: 1em;
+    }
+    
+    .footer-text {
+        margin: 9px 0;
+        font-size: 1em;
+        font-weight: 400;  
+    }
+    
+    .footer-link {
+        color: white;
+        text-decoration: none;
+    }
+    }
+
+    /* Responsive version desktop de 992px à 2000px */
+
+@media screen and (min-width: 992px) and (max-width: 2000px) {
+
+    /* Partie Header */
+    
+    h1 {
+        font-family: shrikhand;
+        text-align: center;
+        font-style: italic;
+        font-size: 25px;
+        padding-bottom: 17px;
+        padding-top: 17px;
+        margin-bottom: 0;
+        margin-top: 0;
+        width: 85%;
+        -webkit-box-pack: center;
+    }
+    
+    header {
+        position: relative;
+    }
+    
+    /* Partie image en plein écran */
+    
+    .photo-card {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+    
+    /* Partie section carte du restaurant */
+    
+    .flexbox1-restau {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 16px;
+    }
+    
+    .flexbox-h2 {
+        display: flex;
+        padding-right: 20%;
+        font-style: italic;
+        font-family: shrikhand;
+        
+    }
+    
+    .flexbox-heart {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        font-size: 1.4em;
+    }
+    
+    /* Partie entrée/plats/desserts avec les prix */
+    
+    .menu {
+        padding-top: 9px;
+    }
+    
+    .boxshadow-menu {
+        display: flex;
+        background-color: white;
+        border-radius: 18px;
+        box-shadow: 1px 5px 10px -3px #787878;
+        list-style-type: none;
+        margin-bottom: 20px;
+        animation-name: animation-scale;
+        animation-duration: 1.3s;
+        animation-fill-mode: both;
+        animation-delay: 2s;
+    }
+    
+    /* animation de l'arrivée des menus en cascade */
+    
+    @keyframes animation-scale {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity:100%;
+            transform: translateY(0px);
+        }  
+    }
+    .menu1{
+        animation-delay: 200ms;
+      }
+      
+      .menu2 {
+        animation-delay: 400ms;
+      }
+      
+      .menu3 {
+        animation-delay: 600ms;
+      }
+    
+    
+    .flexbox2-price {
+        display: flex;
+        align-items: flex-end;
+        margin-left: auto;
+        padding: 7px 12px;
+        
+    }
+    
+    .flexbox-title-menu {
+        padding: 7px 12px;
+    }
+    
+    
+    /* Animation de l'icone check */
+    
+    .icon-check {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #99e2d0;
+        border-radius: 0px 18px 18px 0px;
+        color: white;
+        opacity: 0;
+        font-size: 1.5em; 
+    }
+    
+    .icon-check:hover {
+        background-color: #99e2d0;
+        opacity: 1;
+        width: 90px;
+        border-radius: 0px 15px 15px 0px;
+        padding: 7px 12px;
+        cursor: pointer;
+    }
+    
+    .class-circle {
+        transition: transform 0.5s;
+        transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+        
+    }
+    
+    .class-circle:hover {
+        opacity: 1;
+        transform: rotate(360deg);
+        
+    }
+    
+    
+    .flexbox-title-menu {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    
+    }
+    .boxshadow-menu:hover {
+        cursor: pointer;
+    }
+    
+    
+    /* Partie bouton "commander" */
+    
+    .buttonsecondsection {
+        background-image:linear-gradient(#ff79da,#9356DC);
+        padding: 12px 20px;
+        margin-top: 10px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        border-radius: 30px;
+        box-shadow: 1px 5px 10px -3px #787878;
+        cursor: pointer;
+        transition: transform 200ms;
+    }
+    
+    .button {
+        padding-top: 30px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .buttonsecondsection:hover {
+        transform: scale(1.03);
+    }
+    
+    /* Partie footer */
+    
+    .footer {
+        padding: 20px;
+        background: #2d2b2b;
+        color: white;
+    }
+    
+    h6 {
+        font-family: shrikhand;
+        font-size: 18px;
+        font-weight: 200;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .utensils-helping {
+        display: flex;
+        align-items: center;
+    }
+    
+    .icon-footer, .footer-text {
+        display: flex;
+        flex-direction: row;
+        margin: 9px 0;
+    }
+    
+    .fa-utensils, .fa-hands-helping {
+        padding-right: 10px;
+        font-size: 1em;
+    }
+    
+    .footer-text {
+        margin: 9px 0;
+        font-size: 1em;
+        font-weight: 400;  
+    }
+    
+    .footer-link {
+        color: white;
+        text-decoration: none;
+    }
+    }
