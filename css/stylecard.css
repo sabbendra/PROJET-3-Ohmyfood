@@ -586,6 +586,12 @@ h6 {
         padding-top: 9px;
     }
     
+    .sub-menu {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
+
     .boxshadow-menu {
         display: flex;
         background-color: white;
@@ -696,6 +702,7 @@ h6 {
         box-shadow: 1px 5px 10px -3px #787878;
         cursor: pointer;
         transition: transform 200ms;
+        font-size: 1.6em;
     }
     
     .button {
