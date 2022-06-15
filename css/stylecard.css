@@ -226,12 +226,12 @@ header {
     animation: animation-circle;
 }
 
-/*.boxshadow-menu menu1 {
+.boxshadow-menu menu1 {
     cursor: pointer;
     margin-right: 0;
     overflow: hidden;
     animation: animation-circle;
-}*/
+}
 /*.boxshadow-menu:hover {
     .icon-check {
         margin-right: 0px;
