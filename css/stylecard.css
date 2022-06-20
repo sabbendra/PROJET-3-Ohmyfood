@@ -211,7 +211,7 @@ header {
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(360);
+        transform: rotate(360deg);
     }   
 }
 
