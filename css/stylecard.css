@@ -137,13 +137,14 @@ header {
         .menu1{
             animation-delay: 200ms;
           }
-          
           .menu2 {
             animation-delay: 400ms;
           }
-          
           .menu3 {
             animation-delay: 600ms;
+          }
+          .menu4 {
+            animation-delay: 800ms;
           }
 
 

@@ -27,7 +27,6 @@ p {
     text-decoration: none;
     color: black;
 }
-
 /* Partie loader */
 .color1 {
     background-color: #ff79da;
@@ -106,7 +105,6 @@ header {
     box-shadow: 0px 3px 2px 1px rgb(209, 209, 209);
     position: relative;
 }
-
 /* Partie main - 1ere section- icone map Paris, Belleville */
 .firstsection {
     background-color: #e9e9e9;
@@ -130,7 +128,6 @@ h3 {
 i {
     font-size: 1.4rem;
 }
-
 /* Partie main - 2eme section- Réservez le menu... */
 .secondsection {
     text-align: center;
@@ -156,7 +153,6 @@ i {
 .buttonsecondsection:hover {
     transform: scale(1.03);
 }
-
 /* Partie main - 3eme section-Fonctionnement */
 .thirdsection-operation {
     padding-top: 20px;
@@ -197,7 +193,6 @@ li:hover i {
     padding: 0.2rem 0.5rem;
     position: relative;
 }
-
 /* Partie main - 4eme section-Restaurants */
 .fourthsection-restaurant {
     padding: 20px;
@@ -231,8 +226,7 @@ li:hover i {
 .text-icon-card {
     padding: 0 15px 15px 15px;   
 }
-
-     /* Partie main - suite 4eme section-Restaurants - Pour placer le coeur à droite en display */
+/* Partie main - suite 4eme section-Restaurants - Pour placer le coeur à droite en display */
 .text-icon-card {
     display: flex;
     justify-content: space-between;
@@ -272,7 +266,6 @@ li:hover i {
 .icon-solid-none {
     color: transparent;
 }
-
 /* Partie footer */
 .footer {
     padding: 20px;
@@ -311,7 +304,6 @@ h6 {
 
 @media screen and (min-width: 769px) and (max-width: 991px) {
 /* Partie main - 4eme section-Restaurants */
-
 .responsive-tablet-desktop {
     display: grid;
     row-gap: 3rem;
