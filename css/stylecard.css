@@ -189,7 +189,7 @@ header {
 .boxshadow-menu {
     overflow: hidden;
 }
-.boxshadow-menu menu1 {
+.boxshadow-menu .menu1 {
     cursor: pointer;
     margin-right: 0;
     overflow: hidden;
@@ -199,12 +199,9 @@ header {
     animation: animation-circle 1s;
     animation-fill-mode: forwards;
 }
-.boxshadow-menu .menu1:hover .icon-check {
+.boxshadow-menu:hover .icon-check {
    right: 0;
 }
-.boxshadow-menu menu1:hover {
-    width: calc (100%-112px);
- }
 
  @keyframes animation-circle {
     0% {
