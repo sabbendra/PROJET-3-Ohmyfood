@@ -258,7 +258,7 @@ header {
 .buttonsecondsection:hover {
   transform: scale(1.03);
 }
-/* Partie footer */
+/* Partie footer commune */
 .footer {
   padding: 20px;
   background: #2d2b2b;
