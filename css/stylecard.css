@@ -122,7 +122,6 @@ header {
   animation-delay: 2s;
 }
 /* animation de l'arrivée des menus en cascade */
-
 @keyframes animation-scale {
   0% {
     opacity: 0;
@@ -145,14 +144,12 @@ header {
 .menu4 {
   animation-delay: 800ms;
 }
-
 .flexbox2-price {
   display: flex;
   align-items: flex-end;
   margin-left: auto;
   padding: 7px 12px 7px 0;
 }
-
 .flexbox-title-menu {
   padding: 7px 12px;
 }
@@ -180,7 +177,6 @@ header {
   animation-duration: 0.5s;
   animation-fill-mode: forwards;
 }
-
 .boxshadow-menu {
   overflow: hidden;
 }
@@ -189,7 +185,6 @@ header {
   margin-right: 0;
   overflow: hidden;
 }
-
 .boxshadow-menu:hover .icon-check i {
   animation: animation-circle 400ms;
   animation-fill-mode: forwards;
@@ -197,7 +192,6 @@ header {
 .boxshadow-menu:hover .icon-check {
   margin-right: 0;
 }
-
 @keyframes animation-circle {
   0% {
     transform: rotate(0deg);
@@ -206,7 +200,6 @@ header {
     transform: rotate(360deg);
   }
 }
-
 /* Animation des points ... */
 .flexbox-title-menu {
   white-space: nowrap;
@@ -277,7 +270,6 @@ h6 {
   .photo-card {
     height: 300px;
   }
-
   /* Partie entrée/plats/desserts avec les prix */
   .flexbox2-price {
     padding: 7px 12px;
@@ -287,7 +279,6 @@ h6 {
     width: 100%;
   }
 }
-
 @media screen and (min-width: 992px) and (max-width: 2000px) {
   /* Partie image en plein écran */
   .photo-card {
