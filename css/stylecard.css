@@ -104,7 +104,7 @@ header {
   padding-left: 10px;
   font-size: 1.4em;
 }
-/*animation du coeur*/
+/*animation du coeur favoris*/
 .icon-card {
   display: flex;
   flex-direction: column;
@@ -258,7 +258,7 @@ header {
 .buttonsecondsection:hover {
   transform: scale(1.03);
 }
-/* Partie footer commune */
+/* Partie footer */
 .footer {
   padding: 20px;
   background: #2d2b2b;
