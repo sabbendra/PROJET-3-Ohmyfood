@@ -104,6 +104,36 @@ header {
   padding-left: 10px;
   font-size: 1.4em;
 }
+/*animation du coeur*/
+.icon-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.icon-solid {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  font-size: 1.5em;
+}
+.icon-empty {
+  position: absolute;
+  right: 1rem;
+  top: 50%;
+  font-size: 1.5em;
+}
+.fa-solid:hover {
+  background: #9456dc;
+  background: -webkit-linear-gradient(top, #9456dc, #ff79db);
+  background: -moz-linear-gradient(top, #9456dc, #ff79db);
+  background: linear-gradient(to bottom, #9456dc, #ff79db);
+  cursor: pointer;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.icon-solid-none {
+  color: transparent;
+}
 /* Partie entrée/plats/desserts avec les prix */
 .menu {
   padding-top: 9px;
